@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: 'futuristicAndOutOfBox', colorTemplate: 2, textAnimation: 'slide' }}>
       <div id="nav" data-section="nav">
-        <NavbarStyleApple navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'FAQ', id: 'faq' }, { name: 'How To Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]} logoSrc="/images/logo.svg" logoAlt="NovaFlow Logo" brandName="NovaFlow" />
+        <NavbarStyleApple navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'FAQ', id: 'faq' }, { name: 'How To Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]} logoSrc="/images/logo.svg" brandName="NovaFlow" />
       </div>
       <div id="hero" data-section="hero">
         <VoidHero title="Welcome to NovaFlow" description="Your gateway to streamlined, futuristic SaaS experiences." tagLabel="Futuristic SaaS" primaryButtonText="Start Free Trial" secondaryButtonText="Learn More" />
